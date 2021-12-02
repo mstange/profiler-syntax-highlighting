@@ -20,8 +20,8 @@ extern "C" {
 /// Formatting needs to be supplied by the user; the HTML code does not contain
 /// any inline styles.
 /// Parsing state is correctly carried across multiple lines. For example, if
-/// you have a multi-line /**/ comment from line 1 to line 3, the HTML returned
-/// for line 2 will mark up a comment.
+/// you have a multi-line comment from line 1 to line 3, the HTML returned
+/// for line 2 will contain the right annotations for a comment.
 /// Performance is best if lines are requested in the right order. This avoids
 /// backtracking and repeated parsing.
 /// Parsing happens on demand, up to the requested line.
