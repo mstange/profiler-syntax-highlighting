@@ -1,0 +1,8 @@
+[package]
+name = "profiler-syntax-highlighting-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lazy_static = "1.4.0"
+syntect = { version = "4.6.0", default-features = false, features = ["default-fancy"] }
