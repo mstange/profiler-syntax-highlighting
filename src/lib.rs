@@ -55,7 +55,7 @@ impl SyntaxParsedFile {
     /// The DOM subtree is self-contained.
     /// `lineIndex` is zero-based.
     #[allow(non_snake_case)]
-    pub fn htmlForLine(&mut self, lineIndex: usize) -> Option<String> {
+    pub fn getHTMLForLine(&mut self, lineIndex: usize) -> Option<String> {
         self.0.html_for_line(lineIndex)
     }
 }
