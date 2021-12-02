@@ -225,7 +225,7 @@ dependencies = [
 
 [[package]]
 name = "profiler-syntax-highlighting"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "profiler-syntax-highlighting-lib",
  "wasm-bindgen",
