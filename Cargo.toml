@@ -1,6 +1,6 @@
 [package]
 name = "profiler-syntax-highlighting"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Markus Stange <mstange.moz@gmail.com>"]
 edition = "2018"
 description = "Syntax highlighting in WASM, with self-contained markup for each line, for use in virtual lists."
